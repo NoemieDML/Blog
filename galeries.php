@@ -23,12 +23,12 @@ try {
 }
 ?>
 
-<section class="container ">
+<section class="card-container">
 
     <?php if (!empty($articles)) : ?>
         <?php foreach ($articles as $article) : ?>
-            <div class="article card">
-                <img src="<?= htmlspecialchars($article['image_url']) ?>" alt="<?= htmlspecialchars($article['title']) ?>" class="img-fluid card-img-top">
+            <div class="card">
+                <img src="<?= htmlspecialchars($article['image_url']) ?>" alt="<?= htmlspecialchars($article['title']) ?>" class="card-img">
                 <div class="card-body">
                     <h5 class="card-title"> <?= htmlspecialchars($article['title']) ?> </h5>
                 </div>
