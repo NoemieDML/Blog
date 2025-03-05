@@ -41,7 +41,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 <?php } ?>
 
 
-<div class="commentaire">
+<div class="container">
 
     <?php include 'db\db-comments.php' ?>
 
